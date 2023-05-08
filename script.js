@@ -43,7 +43,7 @@ function closeModal() {
 
 
 function getNextColor(currentColor) {
-    const colors = ['red', 'orange', 'green', 'blue'];
+    const colors = ['red', 'orange', 'green', 'blue', 'white'];
     const index = colors.indexOf(currentColor);
     return colors[(index + 1) % colors.length];
 }
