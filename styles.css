@@ -1,11 +1,28 @@
 table {
     border-collapse: collapse;
+    border-bottom: 1px solid #666666;
+    border-right: 1px solid #666666;
 }
 td, th {
     width: 30px;
     height: 30px;
-    border: 1px solid #666666;
+    border-top: 0.6px solid #666666;
+    border-left: 1px solid #666666;
     text-align: center;
     cursor: pointer;
     box-sizing: border-box;
+    font-size: 11px;
+    user-select: none;
+}
+
+tr:nth-child(1) td {
+    background-color:#ddd;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+td:nth-child(1){
+    background-color:#ddd;
+    font-weight: bold;
+    font-size: 14px;
 }
